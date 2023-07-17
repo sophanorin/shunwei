@@ -37,7 +37,7 @@ export default function Home() {
         <section className={`${styles.section}`} style={{ gap: "2rem" }}>
           <div className={styles.description}>
             <p>
-              Welcome to <b>Shun Wei Fang Zhi Ke Ji Co., Ltd</b> Cambodia's
+              Welcome to <b>Shun Wei Fang Zhi Ke Ji Co., Ltd</b> Cambodia&apos;s
               leading recycling company revolutionizing the textile industry! We
               are committed to sustainability and environmental stewardship by
               transforming textile waste from garment factories into
@@ -53,9 +53,9 @@ export default function Home() {
             <p>
               <b>Step 1: Collection of Textile Waste</b>
               <br />
-              Welcome to Shun Wei Fang Zhi Ke Ji Co., Ltd Cambodia's leading
-              recycling company revolutionizing the textile industry! We are
-              committed to sustainability and environmental stewardship by
+              Welcome to Shun Wei Fang Zhi Ke Ji Co., Ltd Cambodia&apos;s
+              leading recycling company revolutionizing the textile industry! We
+              are committed to sustainability and environmental stewardship by
               transforming textile waste from garment factories into
               high-quality yarn, which is then used to create beautiful fabrics.
               Join us on this journey as we complete the lifecycle of a fabric,
@@ -266,12 +266,13 @@ export default function Home() {
               completing the sustainable fabric lifecycle.
               <br />
               <br />
-              Join us in our mission to create a greener future for Cambodia's
-              textile industry. Together, we can make a difference by reducing
-              waste, conserving resources, and preserving our planet for
-              generations to come. Contact us today to learn more about our
-              recycling solutions or to explore partnership opportunities. Let's
-              weave sustainability into every thread of the textile industry!
+              Join us in our mission to create a greener future for
+              Cambodia&apos;s textile industry. Together, we can make a
+              difference by reducing waste, conserving resources, and preserving
+              our planet for generations to come. Contact us today to learn more
+              about our recycling solutions or to explore partnership
+              opportunities. Let&apos;s weave sustainability into every thread
+              of the textile industry!
             </p>
           </div>
           <div className={styles.gallery}>
