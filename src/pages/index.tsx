@@ -46,7 +46,7 @@ export default function Home() {
               from cradle to grave, while making a positive impact on the world.
             </p>
           </div>
-          <img className={styles.cover} src="/assets/p1.jpg" />
+          <img className={styles.cover} src="/assets/home/p1.jpg" />
         </section>
         <section id="step1" className={styles.section}>
           <div className={styles.description}>
@@ -81,9 +81,7 @@ export default function Home() {
             <iframe
               src="https://www.youtube.com/embed/SflmOJbVXoc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
         </section>
@@ -117,9 +115,7 @@ export default function Home() {
             <iframe
               src="https://www.youtube.com/embed/SflmOJbVXoc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
         </section>
@@ -153,9 +149,7 @@ export default function Home() {
             <iframe
               src="https://www.youtube.com/embed/SflmOJbVXoc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
         </section>
@@ -189,9 +183,7 @@ export default function Home() {
             <iframe
               src="https://www.youtube.com/embed/SflmOJbVXoc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
         </section>
@@ -221,9 +213,7 @@ export default function Home() {
             <iframe
               src="https://www.youtube.com/embed/SflmOJbVXoc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
         </section>
@@ -260,9 +250,7 @@ export default function Home() {
             <iframe
               src="https://www.youtube.com/embed/SflmOJbVXoc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
         </section>
@@ -300,9 +288,7 @@ export default function Home() {
             <iframe
               src="https://www.youtube.com/embed/SflmOJbVXoc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
         </section>
@@ -348,9 +334,7 @@ export default function Home() {
               width="100%"
               height="300"
               style={{ border: 0 }}
-              allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
               title="Google Maps"
               aria-hidden="false"
             ></iframe>
