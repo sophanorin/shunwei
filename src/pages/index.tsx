@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Logo from "../components/Logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,8 @@ export default function Home() {
       </Head>
       <header className={`${styles.header_sticky}`}>
         <div className={styles.header}>
-          <a className={`${styles.logo}`} href="#" rel="noopener noreferrer">
+          <Logo />
+          {/* <a className={`${styles.logo}`} href="#" rel="noopener noreferrer">
             <Image
               src="/favicon.jpeg"
               alt="Shun Wei"
@@ -28,11 +30,11 @@ export default function Home() {
               priority
             />
             <h1>Shun Wei</h1>
-          </a>
+          </a> */}
         </div>
       </header>
       <main className={`${styles.main} ${inter.className}`}>
-        <section className={`${styles.section} ${styles.s1}`}>
+        <section className={`${styles.section}`} style={{ gap: "2rem" }}>
           <div className={styles.description}>
             <p>
               Welcome to <b>Shun Wei Fang Zhi Ke Ji Co., Ltd</b> Cambodia's
@@ -46,7 +48,7 @@ export default function Home() {
           </div>
           <img className={styles.cover} src="/assets/p1.jpg" />
         </section>
-        <section className={styles.section}>
+        <section id="step1" className={styles.section}>
           <div className={styles.description}>
             <p>
               <b>Step 1: Collection of Textile Waste</b>
@@ -75,8 +77,17 @@ export default function Home() {
               <img src="/assets/section1/p3.jpg" />
             </div>
           </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/SflmOJbVXoc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
-        <section className={styles.section}>
+        <section id="step2" className={styles.section}>
           <div className={styles.description}>
             <p>
               <b>Step 2: Sorting and Classification</b>
@@ -102,8 +113,17 @@ export default function Home() {
               <img src="/assets/section2/p4.jpg" />
             </div>
           </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/SflmOJbVXoc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
-        <section className={styles.section}>
+        <section id="step3" className={styles.section}>
           <div className={styles.description}>
             <p>
               <b>Step 3: Shredding and Cleaning</b>
@@ -129,8 +149,17 @@ export default function Home() {
               <img src="/assets/section3/p4.jpg" />
             </div>
           </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/SflmOJbVXoc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
-        <section className={styles.section}>
+        <section id="step4" className={styles.section}>
           <div className={styles.description}>
             <p>
               <b>Step 4: Fiber Blending and Spinning</b>
@@ -156,8 +185,17 @@ export default function Home() {
               <img src="/assets/section4/p4.jpg" />
             </div>
           </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/SflmOJbVXoc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
-        <section className={styles.section}>
+        <section id="step5" className={styles.section}>
           <div className={styles.description}>
             <p>
               <b>Step 5: Quality Control</b>
@@ -179,8 +217,17 @@ export default function Home() {
               <img src="/assets/section5/p1.jpg" />
             </div>
           </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/SflmOJbVXoc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
-        <section className={styles.section}>
+        <section id="step6" className={styles.section}>
           <div className={styles.description}>
             <p>
               <b>Step 6: Fabric Distribution and Usage</b>
@@ -209,8 +256,17 @@ export default function Home() {
               <img src="/assets/section6/p2.jpg" />
             </div>
           </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/SflmOJbVXoc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
-        <section className={styles.section}>
+        <section id="step7" className={styles.section}>
           <div className={styles.description}>
             <p>
               <b>Step 7: End-of-Life Options</b>
@@ -240,8 +296,67 @@ export default function Home() {
               <img src="/assets/section7/p1.jpg" />
             </div>
           </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/SflmOJbVXoc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
       </main>
+      <footer className={styles.footer}>
+        <div className={styles.column}>
+          <Logo />
+          <p>Address: 123 Main Street, City, Country</p>
+          <p>Email: info@example.com</p>
+          <p>Phone: +1 234 567 890</p>
+        </div>
+        <div className={`${styles.column} ${styles.quick_links}`}>
+          <h2>Quick Links</h2>
+          <ul>
+            <li>
+              <a href="#step1">Step 1: Collection of Textile Waste</a>
+            </li>
+            <li>
+              <a href="#step2">Step 2: Sorting and Classification</a>
+            </li>
+            <li>
+              <a href="#step3">Step 3: Shredding and Cleaning</a>
+            </li>
+            <li>
+              <a href="#step4">Step 4: Fiber Blending and Spinning</a>
+            </li>
+            <li>
+              <a href="#step5">Step 5: Quality Control</a>
+            </li>
+            <li>
+              <a href="#step6">Step 6: Fabric Distribution and Usage</a>
+            </li>
+            <li>
+              <a href="#step7">Step 7: End-of-Life Options</a>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.column}>
+          <h2>Find Us on Map</h2>
+          <div className={styles.map}>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62765.22442275337!2d104.91776859086463!3d11.533585976898872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951cb038982f9%3A0xc21b4b522ae49bc3!2sChip%20Mong%20271%20Mega%20Mall!5e0!3m2!1sen!2skh!4v1689576765695!5m2!1sen!2skh"
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Google Maps"
+              aria-hidden="false"
+            ></iframe>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
